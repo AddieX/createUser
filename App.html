@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/css/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Create User | Addie</title>
+  </head>
+  <body>
+    <h2>Create New User</h2>
+    <form id="createUserForm">
+      <div class="form-group">
+        <label for="username">Usernmae (First/Last)</label>
+        <input type="text" id="username" name="username" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required />
+      </div>
+      <div class="form-group">
+        <label for="confirmPassword">Confirm Password</label>
+        <input
+          type="password"
+          id="confirmPassword"
+          name="confirmPassword"
+          required
+        />
+      </div>
+      <button type="submit">Create Account</button>
+    </form>
+
+    <footer class="page-footer">
+      <p>&copy; All rights reserved | Addie</p>
+      <a class="footer-link" href="mailto:addie@fake.com">Email Me</a>
+    </footer>
+    <script>
+      document
+        .getElementById("createUserForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          const password = document.getElementById("password").value;
+          const confirmPassword =
+            document.getElementById("confirmPassword").value;
+
+          if (password !== confirmPassword) {
+            alert("Passwords do not match!");
+            return;
+          }
+
+          console.log("Form submitted!");
+        });
+    </script>
+  </body>
+</html>
