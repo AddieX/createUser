@@ -1,7 +1,7 @@
 # Create user simple code
 
 - <b>You need a backend if want him work will</b>
-- <b>Change mail input to you email </b><br>
+- <b>Change mail input to your email </b><br>
 
 ## Here you can change the email
 
