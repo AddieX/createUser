@@ -9,6 +9,3 @@
       <p>&copy; All rights reserved | Addie</p>
       <a class="footer-link" href="mailto:addie@fake.com">Email Me</a>
     </footer>
-
-    
-    Note: If you want to remove the rights, and if you leave it, thank you.<3
