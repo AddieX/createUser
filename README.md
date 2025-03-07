@@ -56,3 +56,5 @@ You can customize the appearance by modifying the CSS in `src/css/main.css`.
 
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Made with ❤️ by [Addie](https://github.com/AddieX)
