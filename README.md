@@ -56,6 +56,4 @@ You can customize the appearance by modifying the CSS in `src/css/main.css`.
 
 ## License
 
-© 2025 Addie. All rights reserved.
-
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
