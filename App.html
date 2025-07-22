@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="/src/css/main.css" />
+    <script defer src="/src/js/main.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple Create Account | Addie</title>
   </head>
@@ -37,22 +38,5 @@
       <p>&copy;&copy; 2025 Addie. All rights reserved.</p>
       <a class="footer-link" href="mailto:addie@fake.com">Email Me</a>
     </footer>
-    <script>
-      document
-        .getElementById("createUserForm")
-        .addEventListener("submit", function (e) {
-          e.preventDefault();
-          const password = document.getElementById("password").value;
-          const confirmPassword =
-            document.getElementById("confirmPassword").value;
-
-          if (password !== confirmPassword) {
-            alert("Passwords do not match!");
-            return;
-          }
-
-          console.log("Form submitted!");
-        });
-    </script>
   </body>
 </html>
