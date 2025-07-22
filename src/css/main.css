@@ -107,7 +107,6 @@ form {
   padding: 20px;
 }
 
-/* Add these media queries at the end of the file */
 @media screen and (max-width: 480px) {
   body {
     padding: 10px;
